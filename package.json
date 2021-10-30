@@ -1,0 +1,34 @@
+{
+  "name": "gun-express",
+  "version": "1.0.0",
+  "description": "A express server with gun",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhishek-asarawa/gun-express.git"
+  },
+  "keywords": [
+    "gun",
+    "express",
+    "nodejs"
+  ],
+  "author": "aasarawa@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhishek-asarawa/gun-express/issues"
+  },
+  "homepage": "https://github.com/abhishek-asarawa/gun-express#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "gun": "^0.2020.1235",
+    "helmet": "^4.6.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
